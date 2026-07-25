@@ -1,0 +1,131 @@
+{
+  "english_analysis": {
+    "total_texts": 10,
+    "tokenizers": {
+      "mBERT": {
+        "samples_processed": 10,
+        "avg_tokens_per_word": 1.3731,
+        "median_tokens_per_word": 1.364,
+        "avg_chars_per_token": 4.307,
+        "avg_tokens_per_1k_chars": 232.588,
+        "total_tokens": 17070,
+        "total_words": 12544,
+        "total_chars": 73957,
+        "vocab_size": 119547
+      },
+      "mBART-50": {
+        "samples_processed": 10,
+        "avg_tokens_per_word": 1.402,
+        "median_tokens_per_word": 1.3715,
+        "avg_chars_per_token": 4.2165,
+        "avg_tokens_per_1k_chars": 237.515,
+        "total_tokens": 17428,
+        "total_words": 12544,
+        "total_chars": 73957,
+        "vocab_size": 250054
+      },
+      "XLM-R": {
+        "samples_processed": 10,
+        "avg_tokens_per_word": 1.402,
+        "median_tokens_per_word": 1.3715,
+        "avg_chars_per_token": 4.2165,
+        "avg_tokens_per_1k_chars": 237.515,
+        "total_tokens": 17428,
+        "total_words": 12544,
+        "total_chars": 73957,
+        "vocab_size": 250002
+      },
+      "Tiktoken-cl100k": {
+        "samples_processed": 10,
+        "avg_tokens_per_word": 1.2908,
+        "median_tokens_per_word": 1.2837,
+        "avg_chars_per_token": 4.5803,
+        "avg_tokens_per_1k_chars": 218.699,
+        "total_tokens": 16105,
+        "total_words": 12544,
+        "total_chars": 73957,
+        "vocab_size": 100277
+      }
+    }
+  },
+  "hindi_analysis": {
+    "total_texts": 10,
+    "tokenizers": {
+      "mBERT": {
+        "samples_processed": 10,
+        "avg_tokens_per_word": 2.0376,
+        "median_tokens_per_word": 2.0214,
+        "avg_chars_per_token": 2.5829,
+        "avg_tokens_per_1k_chars": 387.639,
+        "total_tokens": 26450,
+        "total_words": 13114,
+        "total_chars": 68767,
+        "vocab_size": 119547
+      },
+      "mBART-50": {
+        "samples_processed": 10,
+        "avg_tokens_per_word": 1.4013,
+        "median_tokens_per_word": 1.4117,
+        "avg_chars_per_token": 3.7537,
+        "avg_tokens_per_1k_chars": 266.639,
+        "total_tokens": 18240,
+        "total_words": 13114,
+        "total_chars": 68767,
+        "vocab_size": 250054
+      },
+      "XLM-R": {
+        "samples_processed": 10,
+        "avg_tokens_per_word": 1.4013,
+        "median_tokens_per_word": 1.4117,
+        "avg_chars_per_token": 3.7537,
+        "avg_tokens_per_1k_chars": 266.639,
+        "total_tokens": 18240,
+        "total_words": 13114,
+        "total_chars": 68767,
+        "vocab_size": 250002
+      },
+      "Tiktoken-cl100k": {
+        "samples_processed": 10,
+        "avg_tokens_per_word": 5.0609,
+        "median_tokens_per_word": 5.0521,
+        "avg_chars_per_token": 1.0384,
+        "avg_tokens_per_1k_chars": 963.04,
+        "total_tokens": 66168,
+        "total_words": 13114,
+        "total_chars": 68767,
+        "vocab_size": 100277
+      }
+    }
+  },
+  "parallel_overhead": {
+    "mBERT": {
+      "english_avg_tokens_per_word": 1.3731,
+      "hindi_avg_tokens_per_word": 2.0376,
+      "hindi_overhead_vs_english": 1.4839,
+      "hindi_total_tokens": 26450,
+      "english_total_tokens": 17070
+    },
+    "mBART-50": {
+      "english_avg_tokens_per_word": 1.402,
+      "hindi_avg_tokens_per_word": 1.4013,
+      "hindi_overhead_vs_english": 0.9995,
+      "hindi_total_tokens": 18240,
+      "english_total_tokens": 17428
+    },
+    "XLM-R": {
+      "english_avg_tokens_per_word": 1.402,
+      "hindi_avg_tokens_per_word": 1.4013,
+      "hindi_overhead_vs_english": 0.9995,
+      "hindi_total_tokens": 18240,
+      "english_total_tokens": 17428
+    },
+    "Tiktoken-cl100k": {
+      "english_avg_tokens_per_word": 1.2908,
+      "hindi_avg_tokens_per_word": 5.0609,
+      "hindi_overhead_vs_english": 3.9207,
+      "hindi_total_tokens": 66168,
+      "english_total_tokens": 16105
+    }
+  },
+  "recommended_tokenizer_by_hindi_tpw": "mBART-50"
+}

@@ -1,0 +1,120 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# ===========================
+# Virtual Environments
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# VS Code / PyCharm
+# ===========================
+.vscode/
+.idea/
+*.iml
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Hugging Face
+# ===========================
+.cache/
+huggingface/
+hf_cache/
+
+# ===========================
+# Model Checkpoints
+# ===========================
+checkpoints/
+outputs/
+runs/
+logs/
+tensorboard/
+
+# ===========================
+# Saved Models
+# ===========================
+models/
+saved_models/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# ===========================
+# Evaluation Outputs
+# ===========================
+reports/
+evaluation/
+*.jsonl
+predictions*.txt
+translations*.txt
+
+# If you want to keep one report, comment these out.
+
+# ===========================
+# Datasets
+# ===========================
+data/raw/
+data/processed/
+*.csv
+*.tsv
+
+# Uncomment if your dataset is private.
+# data/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# ===========================
+# Coverage
+# ===========================
+.coverage
+.pytest_cache/
+htmlcov/
+
+# ===========================
+# Misc
+# ===========================
+*.zip
+*.tar.gz
+*.7z

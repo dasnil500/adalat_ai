@@ -1,0 +1,11 @@
+{
+  "total_documents": 25,
+  "train_docs": 20,
+  "dev_docs": 2,
+  "test_docs": 3,
+  "train_records": 291,
+  "dev_records": 32,
+  "test_records": 45,
+  "random_seed": 42,
+  "alignment_method": "paragraph_number_lcs_or_block_order"
+}

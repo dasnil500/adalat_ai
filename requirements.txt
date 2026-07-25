@@ -1,0 +1,14 @@
+torch>=2.0
+transformers>=4.30
+peft>=0.4
+datasets>=2.12
+accelerate>=0.20
+sentencepiece>=0.1.99
+sacrebleu>=2.3
+numpy>=1.24
+scikit-learn>=1.3
+tqdm>=4.65
+evaluate>=0.4.6
+
+# Optional: enables the GPT-style tokenizer comparison in main_pipeline.py
+tiktoken>=0.5
