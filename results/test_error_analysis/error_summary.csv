@@ -1,0 +1,17 @@
+category,family,severity,count,percent,primary_count,primary_percent,description
+repetition_or_fluency_error,fluency_script,medium,33,73.33,2,4.44,The output contains repeated words/phrases or visibly degraded fluency.
+legal_terminology_omission,legal_domain_fidelity,high,24,53.33,22,48.89,Expected legal concepts are missing from the hypothesis.
+legal_terminology_addition,legal_domain_fidelity,medium,23,51.11,7,15.56,The hypothesis introduces legal concepts not observed in the source/reference.
+named_entity_or_abbreviation_risk,factual_preservation,medium,17,37.78,2,4.44,"Names, institutions, or legal abbreviations in the source are at risk of being lost or distorted."
+outcome_error,legal_domain_fidelity,high,10,22.22,0,0.0,"Disposition/outcome terms such as allowed, dismissed, quashed, conviction, or bail are mistranslated."
+date_number_error,factual_preservation,medium,9,20.0,1,2.22,"Dates, amounts, paragraph numbers, years, or other numeric facts are not preserved."
+negation_modality_error,legal_reasoning,high,8,17.78,0,0.0,"Negation, obligation, permission, entitlement, or judicial direction is missing or added."
+acceptable_or_minor_variation,minor,low,8,17.78,8,17.78,No major heuristic error was detected; remaining issues are likely lexical/style variation.
+wrong_script_or_source_copying,fluency_script,critical,3,6.67,3,6.67,The output remains substantially in English/Latin script or copies the source.
+party_role_error,legal_domain_fidelity,high,3,6.67,0,0.0,"Party roles such as appellant, respondent, petitioner, or accused are dropped or altered."
+statutory_reference_error,legal_domain_fidelity,high,3,6.67,0,0.0,"Sections, articles, Acts, rules, or code references are not preserved."
+under_translation_omission,adequacy,high,2,4.44,0,0.0,"The output is materially shorter than the reference, suggesting omitted legal content."
+over_translation_addition,adequacy,high,1,2.22,0,0.0,The output is materially longer than the reference or adds unsupported content.
+format_structure_error,structure,medium,1,2.22,0,0.0,"Paragraph numbering, list markers, or enumerated legal structure are not preserved."
+empty_or_degenerate_output,fluency_script,critical,0,0.0,0,0.0,"The system produced an empty, near-empty, or otherwise unusable output."
+severe_semantic_drift,adequacy,critical,0,0.0,0,0.0,The output has very low character and token overlap with the reference.

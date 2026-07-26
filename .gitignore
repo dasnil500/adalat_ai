@@ -69,7 +69,6 @@ saved_models/
 # ===========================
 reports/
 evaluation/
-*.jsonl
 predictions*.txt
 translations*.txt
 
@@ -80,8 +79,6 @@ translations*.txt
 # ===========================
 data/raw/
 data/processed/
-*.csv
-*.tsv
 
 # Uncomment if your dataset is private.
 # data/
